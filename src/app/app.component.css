@@ -1,0 +1,35 @@
+.bottom{
+  position: absolute;
+  z-index: 1;
+  width: 95%;
+  height: 0%;
+  bottom: 7px;
+  background-color: var(--shadow-dark);
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  justify-content: flex-end;
+
+}
+.loctaion{
+  position: relative;
+  z-index: 1;
+  background-color: var(--shadow-dark);
+  display: flex;
+  padding-left: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.weather-data{
+  background-color: var(--shadow-dark);
+}
+.searchBtn{
+  width: 24px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  margin-top: 1px;
+  margin-left: -55px;
+  cursor: pointer;
+}
